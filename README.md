@@ -1,44 +1,43 @@
-# Project README Example
 
-## Project J.B.R.U.L.E.Z.
----
-### We are deployed on ___________!
-
-[project url here]
+# Project: Housing Hunter Hero
 
 ---
-## Web Application
-***[Explain your app, should be at least a paragraph. What does it do? Why should I use? Sell your product!]***
 
-The web application consists of a frontend written in HTML, CSS,
-Bootstrap, and Django. The backend was written in Python.
+## Application
 
-An interface is provided to create new blog
-posts, view existing blog posts, edit existing blog posts, delete existing
-blog posts, and search by both keywords and usernames.
+[//]: # (***[Explain your app, should be at least a paragraph. What does it do? Why should I use? Sell your product!]***)
+
+Our application was written in Python.
+
+Users looking for relevant information on the housing market in the Seattle area can come to our application and look at trends for things like housing sales and current average prices.
+
+---
+
+## Authors
+
+- Domaine Scully
+- Monica Ramirez
+- Gordon Reilley Jr.
+- Brian Sward
 
 ---
 
 ## Tools Used
-VS Code
+
 PyCharm
 
 - Python
-- Django
-- Docker
-- MVC
-- Bootstrap
-- Azure
 - Pytest
-- Poetry
-- PyEnv
+- Selenium
+- Playwright
+- Pywatch
 
 ---
 
 ## Recent Updates
 
-#### V 1.4
-*Added OAuth for MySpace* - 23 Jan 2003
+#### V 1.0
+*Added README and Team Agreement* - 13 Jan 2023
 
 ---
 
@@ -131,13 +130,19 @@ Unit testing is included in the __________________ project using the pytest test
 
 ---
 
-## Authors
-Albus Dumbbledore
-Igor Karkaroff
-Minerva McGonagall
-Leta Lestrange
-Gellert Grindelwald
+[//]: # (## Authors)
 
----
+[//]: # (Albus Dumbbledore)
+
+[//]: # (Igor Karkaroff)
+
+[//]: # (Minerva McGonagall)
+
+[//]: # (Leta Lestrange)
+
+[//]: # (Gellert Grindelwald)
+
+[//]: # ()
+[//]: # (---)
 
 For more information on Markdown: https://www.markdownguide.org/cheat-sheet
