@@ -43,16 +43,19 @@ PyCharm
 ## Data Flow
 
 [//]: # (***[Add a clean and clear explanation of what the data flow is. Walk me through it.]***)
+
+
+
 ![Wireframes](./project_prep/wireframe.jpg)
 
 ![Domain Model](./project_prep/domain_model.jpg)
 
 ---
 
-## Trello Board
+## Trello Board & Software Requirements
 
 - [Trello Board](https://trello.com/b/D86U6RNM/housing-hunter-hero)
-
+- [Software Requirements](./project_prep/requirements.md)
 ---
 ## Getting Started
 
