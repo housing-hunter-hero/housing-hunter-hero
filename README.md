@@ -40,7 +40,20 @@ PyCharm
 *Added README and Team Agreement* - 13 Jan 2023
 
 ---
+## Data Flow
 
+[//]: # (***[Add a clean and clear explanation of what the data flow is. Walk me through it.]***)
+![Wireframes](./project_prep/wireframe.jpg)
+
+![Domain Model](./project_prep/domain_model.jpg)
+
+---
+
+## Trello Board
+
+- [Trello Board](https://trello.com/b/D86U6RNM/housing-hunter-hero)
+
+---
 ## Getting Started
 
 Clone this repository to your local machine.
@@ -72,54 +85,8 @@ Unit testing is included in the __________________ project using the pytest test
 ### Overview of Recent Posts
 ![Overview of Recent Posts](https://via.placeholder.com/500x250)
 
-### Creating a Post
-![Post Creation](https://via.placeholder.com/500x250)
-
-### Enriching a Post
-![Enriching Post](https://via.placeholder.com/500x250)
-
-### Viewing Post Details
-![Details of Post](https://via.placeholder.com/500x250)
-
 ---
-## Data Flow (Frontend, Backend, REST API)
-***[Add a clean and clear explanation of what the data flow is. Walk me through it.]***
-![Data Flow Diagram](/assets/img/Flowchart.png)
 
----
-## Data Model
-
-### Overall Project Schema
-***[Add a description of your DB schema. Explain the relationships to me.]***
-![Database Schema](/assets/img/ERD.png)
-
----
-## Model Properties and Requirements
-
-### Blog
-
-| Parameter | Type | Required |
-| --- | --- | --- |
-| ID  | int | YES |
-| Summary | string | YES |
-| Content | string | YES |
-| Tags | string(s) | NO |
-| Picture | img jpeg/png | NO |
-| Sentiment | float | NO |
-| Keywords | string(s) | NO |
-| Related Posts | links | NO |
-| Date | date/time object | YES |
-
-
-### User
-
-| Parameter | Type | Required |
-| --- | --- | --- |
-| ID  | int | YES |
-| Name/Author | string | YES |
-| Posts | list | YES |
-
----
 
 ## Change Log
 ***[The change log will list any changes made to the code base. This includes any changes from TA/Instructor feedback]***
@@ -129,20 +96,5 @@ Unit testing is included in the __________________ project using the pytest test
 1.1: *Added ability for user to change photos on a post* - 12 May 1998
 
 ---
-
-[//]: # (## Authors)
-
-[//]: # (Albus Dumbbledore)
-
-[//]: # (Igor Karkaroff)
-
-[//]: # (Minerva McGonagall)
-
-[//]: # (Leta Lestrange)
-
-[//]: # (Gellert Grindelwald)
-
-[//]: # ()
-[//]: # (---)
 
 For more information on Markdown: https://www.markdownguide.org/cheat-sheet
