@@ -44,3 +44,5 @@ def greeting():
         return 4
     else:
         print("Invalid selection. Please try again.")
+
+greeting()
