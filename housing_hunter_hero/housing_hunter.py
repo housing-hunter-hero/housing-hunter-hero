@@ -88,5 +88,10 @@ def results_of_scrape(scraped_data):
 		print(" ")
 
 
+def user_zip():
+    user_input = input('> ')
+    results_of_scrape((smash_together(zip_scraper(user_input), bed_bath_scraper(user_input))))
+
+
 if __name__ == "__main__":
-	results_of_scrape((smash_together(zip_scraper('06118'), bed_bath_scraper('06118'))))
+    user_zip()
