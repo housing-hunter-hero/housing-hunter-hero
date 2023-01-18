@@ -62,6 +62,7 @@ def bed_bath_scraper():
 		return_me[i] = return_me[i].replace("Bath s", "Baths ")
 		return_me[i] = return_me[i].replace(return_b[i], " "+return_b[i]+" ")
 
+
 	for i in range(len(return_me)):
 		return_me[i] = re.sub(r'Listing(.*)', '', return_me[i])
 
