@@ -46,33 +46,3 @@ def greeting():
     else:
         print("Invalid selection. Please try again.")
 
-
-
-def render_property(ADDRESS):
-
-    with open(f'{ADDRESS}') as our_info:
-        our_info = json.load(our_info)
-
-    # print(ADDRESS)
-
-    def print_one():
-        # print("  +                                             +")
-        return
-
-    street = our_info['payload']['addressSectionInfo']['streetAddress']['assembledAddress']
-    city = our_info['payload']['addressSectionInfo']['city']
-    state = our_info['payload']['addressSectionInfo']['state']
-    bed = our_info['payload']['addressSectionInfo']['beds']
-    bath = our_info['payload']['addressSectionInfo']['baths']
-    price = our_info['payload']['addressSectionInfo']['priceInfo']['amount']
-    sq_ft = our_info['payload']['addressSectionInfo']
-
-    print(f"Address of Property: {street}, {city} {state}")
-    print(f"Number of bedrooms: {bed}")
-    print(f"Number of bathrooms: {bath}")
-    print(f"Number of square feet: {sq_ft}")
-    print(f"Current Market Price: ${price}")
-    # print_one()
-
-
-render_property("data_assets/41 Fig St, Central Islip  New York.json")
