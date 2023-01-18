@@ -76,3 +76,4 @@ def smash_together(thing1, thing2):
 
 if __name__ == "__main__":
 	smash_together(name_url_scraper(), bed_bath_scraper())
+

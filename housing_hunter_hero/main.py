@@ -1,8 +1,9 @@
 from housing_hunter import name_url_scraper, bed_bath_scraper, smash_together
+from graphics import greeting
 
 
 def main():
-	smash_together(name_url_scraper(), bed_bath_scraper())
+	greeting()
 
 
 if __name__ == "__main__":
