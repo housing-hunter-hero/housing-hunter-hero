@@ -12,7 +12,7 @@ def zip_scraper(zip_):
 
 	soup = BeautifulSoup(response.text, "html.parser")
 	soup = soup.find_all('script', type="application/ld+json")
-
+	bucket = []
 	x = []
 	for num in range(1, len(soup)):
 		x.append(json.loads(soup[num].get_text()))
@@ -21,7 +21,7 @@ def zip_scraper(zip_):
 	lst = [v for i, v in enumerate(purge_) if i % 2 == 0]
 	while len(lst) > 10:
 		lst.pop()
-	bucket = []
+
 	for item in lst:
 		# print(type(item))
 		bucket.append([item[0]['name'], item[1]['url']])
@@ -29,7 +29,7 @@ def zip_scraper(zip_):
 
 
 def bed_bath_scraper(zip_):
-
+	bucket = zip_scraper(zip_)
 	headers = {'User-Agent': 'Mozilla/5.0'}
 	url = f"https://www.redfin.com/zipcode/{zip_}"
 	response = requests.get(url, headers=headers)
@@ -62,9 +62,10 @@ def bed_bath_scraper(zip_):
 		return_me[i] = return_me[i].replace("Bath", "Bath ")
 		return_me[i] = return_me[i].replace("Bath s", "Baths ")
 		return_me[i] = return_me[i].replace(return_b[i], " "+return_b[i]+" ")
+		return_me[i] = return_me[i][:-(len(bucket[i][0]))]
 
-	for i in range(len(return_me)):
-		return_me[i] = re.sub(r'Listing(.*)', '', return_me[i])
+	# for i in range(len(return_me)):
+	# 	return_me[i] = re.sub(r'Listing(.*)', '', return_me[i])
 
 	return return_me
 
