@@ -1,5 +1,4 @@
-from address_to_json import info_to_json
-import json
+from housing_hunter import name_url_scraper, bed_bath_scraper, smash_together
 
 welcome_menu = """
 
@@ -27,7 +26,7 @@ def greeting():
 
     if choice == "1":
         print("Thank you for choosing Research A Property")
-        return 1
+        return smash_together(name_url_scraper(), bed_bath_scraper())
     elif choice == "2":
         print("Thank you for choosing Compare 2 Properties")
         return 2
@@ -45,4 +44,3 @@ def greeting():
         return 4
     else:
         print("Invalid selection. Please try again.")
-
