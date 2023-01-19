@@ -3,8 +3,7 @@ from graphics import greeting
 
 
 def main():
-	# greeting()
-	results_of_scrape(smash_together(zip_scraper('06118'), bed_bath_scraper('06118')))
+	greeting()
 
 
 if __name__ == "__main__":
