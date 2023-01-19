@@ -44,6 +44,7 @@ def test_smash_together_is_working():
 
 # @pytest.mark.skip("TODO")
 def test_exists_results_of_scrape():
+    # load expected results from a file vs. hard coding here because it's tricky to spot white space errors
     with open("tests/results_of_scrape.txt") as f:
         expected = f.read()
     actual = results_of_scrape(smash_together(zip_scraper('06118'), bed_bath_scraper('06118')))
