@@ -36,7 +36,7 @@ def greeting():
     choice = input("Please make a selection: \n")
 
     if choice == "1":
-        print("Please enter zipcode: ")
+        print("Please enter zipcode or enter 'q' to quit: ")
         return user_zip()
     elif choice == "2":
         print("See you next time")
