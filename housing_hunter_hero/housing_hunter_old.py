@@ -70,7 +70,7 @@ def bed_bath_scraper():
 
 def smash_together(thing1, thing2):
 	for i in range(len(thing2)):
-		print(f"Property {i+1}: ", thing2[i], " - ", "\n ", f"https://www.redfin.com/{(thing1[i][1])}")
+		print(f"Property {i+1}: ", thing2[i], " - ", "\n ", f"https://www.redfin.com{(thing1[i][1])}")
 		print(" ")
 
 

@@ -83,16 +83,19 @@ def smash_together(list_1, list_2):
 
 
 def results_of_scrape(scraped_data):
+	results = ""
 	for i in range(len(scraped_data)):
-		print(f"Property {i + 1}: {scraped_data[i][2]}","\n ", f"URL: https://www.redfin.com/{scraped_data[i][1]}")
-		# print(f"Property {i + 1}: {scraped_data[i][2]}".center(250, '0'),"\n ", f"https://www.redfin.com/{scraped_data[i][1]}".center(250, '0'))
-		print(" ")
+		results += f"Property {i + 1}: {scraped_data[i][2]} \n URL: https://www.redfin.com{scraped_data[i][1]} \n"
+		results += "\n"
+	print(results)
+	return results
 
 
 def user_zip():
-    user_input = input('> ')
-    results_of_scrape((smash_together(zip_scraper(user_input), bed_bath_scraper(user_input))))
+	user_input = input('> ')
+	results_of_scrape((smash_together(zip_scraper(user_input), bed_bath_scraper(user_input))))
 
 
 if __name__ == "__main__":
-    user_zip()
+	# user_zip()
+	print(results_of_scrape(smash_together(zip_scraper('21222'), bed_bath_scraper('21222'))))
