@@ -9,7 +9,7 @@
 
 Our application was written in Python.
 
-Users looking for relevant information on the housing market in the Seattle area can come to our application and look at trends for things like housing sales and current average prices.
+Many real-estates websites can contain a lot of information and be over whelming or cumbersome for the user trying to get quick to the point metrics for homes. Our app allows the user to see the bare-bones easy to read metrics about homes in a user input zip code of their choosing in seconds, without having to navigate through a busy interface.
 
 ---
 
@@ -28,9 +28,9 @@ PyCharm
 
 - Python
 - Pytest
-- Selenium
-- Playwright
-- Pywatch
+- BeautifulSoup
+- Requests
+- Json
 
 ---
 
@@ -38,6 +38,20 @@ PyCharm
 
 #### V 1.0
 *Added README and Team Agreement* - 13 Jan 2023
+#### V 1.1
+Set up request to redfin.com, so we could start our web scraping.  
+#### V 1.2
+Able to parse html tags and search using `soup.find_all` to narrow down the information we wanted. 
+#### V 1.3
+Scrubbed the output further to display 8 properties with all the metrics we wanted.
+#### V 1.4
+Put all of our freely written code into functions and got it working smoothly.
+#### V 2.0
+Refactored code to take in a user input zip code and return 8 properties in that area.
+#### V 2.1
+Added a CLI for a clean user experience.
+#### V 2.2
+Added testing to make sure we were returning the information we expected and work out and small bugs. 
 
 ---
 ## Data Flow
@@ -46,9 +60,9 @@ PyCharm
 
 
 
-![Wireframes](./project_prep/wireframe.jpg)
+![Wireframes](project_prep/img/wireframe.jpg)
 
-![Domain Model](./project_prep/domain_model.jpg)
+![Domain Model](project_prep/img/domain_model.jpg)
 
 ---
 
@@ -62,41 +76,25 @@ PyCharm
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/YourRepo/YourProject.git
+$ git clone https://github.com/housing-hunter-hero/housing-hunter-hero.git
+
 ```
-Once downloaded, activate your virtual environment and run by ____________
-```
-cd YourRepo/YourProject
-python xxx.py
-```
-The poetry tools will automatically install any dependencies. Before running the application, setup your DB by doing ________
-```
-Update-Database
-```
-Once the database has been created, the application can be run. Options for running and debugging the application using can be found via your coding tools of ___________. From the command line, the following will start an instance of the Postgresql server to host the application:
-```
-cd YourRepo/YourProject
-dotnet run
-```
-Unit testing is included in the __________________ project using the pytest test framework. Tests have been provided for models, view models, controllers, and utility classes for the application.
+Once downloaded, activate your virtual environment and install all requirements. then run `python housing_hunter.py/main.py`
 
 ---
 
 ## Usage
-***[Provide some images of your app with brief description as title]***
 
-### Overview of Recent Posts
-![Overview of Recent Posts](https://via.placeholder.com/500x250)
+[//]: # (***[Provide some images of your app with brief description as title]***)
 
----
+### Welcome Menu
+![Welcome Menu](project_prep/img/welcome_menu.png)
 
+### User Input - Zip Code
+![User Input](project_prep/img/user_input.png)
 
-## Change Log
-***[The change log will list any changes made to the code base. This includes any changes from TA/Instructor feedback]***
-1.4: *Added OAuth for MySpace* - 23 Jan 2003
-1.3: *Changed email handler to Alta Vista, fixed issue with styling on Netscape Navigator browser.* - 21 Dec 1999
-1.2: *Fixed bug where pages would not load due to temp data* - 16 Jun 1998
-1.1: *Added ability for user to change photos on a post* - 12 May 1998
+### Final Output
+![Final Output](project_prep/img/output.png)
 
 ---
 

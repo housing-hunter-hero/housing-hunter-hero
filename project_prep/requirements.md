@@ -58,9 +58,9 @@ Console application that gives the user relevant information on the housing mark
 
 ## Data Flow
 
-![Wireframes](./wireframe.jpg)
+![Wireframes](img/wireframe.jpg)
 
-![Domain Model](./domain_model.jpg)
+![Domain Model](img/domain_model.jpg)
 
 
 ## Non-functional requirements
