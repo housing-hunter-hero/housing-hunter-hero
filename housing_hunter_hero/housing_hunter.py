@@ -97,5 +97,4 @@ def user_zip():
 
 
 if __name__ == "__main__":
-	# user_zip()
-	print(results_of_scrape(smash_together(zip_scraper('21222'), bed_bath_scraper('21222'))))
+	user_zip()
