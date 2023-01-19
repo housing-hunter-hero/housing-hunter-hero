@@ -7,8 +7,6 @@ art5 = """
 
 """
 
-
-
 welcome_menu = """
 
   +++++++++++++++++++++++++++++++++++++++++++++++
@@ -29,13 +27,14 @@ def greeting():
     choice = input("Please make a selection: \n")
 
     if choice == "1":
-        print("Please enter zipcode: ")
+        print("Please enter zipcode or enter \'q\' to quit: ")
         return user_zip()
     elif choice == "2":
-        print("See you next time")
+        print("See you next time!")
         return 2
     else:
         print("Invalid selection. Please try again.")
         greeting()
 
-# greeting()
+
+greeting()
