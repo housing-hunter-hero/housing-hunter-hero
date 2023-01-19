@@ -1,4 +1,13 @@
-from housing_hunter_old import name_url_scraper, bed_bath_scraper, smash_together
+from housing_hunter import user_zip
+
+art5 = """
+┬ ┬┌─┐┬ ┬┌─┐┬┌┐┌┌─┐    ┬ ┬┬ ┬┌┐┌┌┬┐┌─┐┬─┐    ┬ ┬┌─┐┬─┐┌─┐
+├─┤│ ││ │└─┐│││││ ┬    ├─┤│ ││││ │ ├┤ ├┬┘    ├─┤├┤ ├┬┘│ │
+┴ ┴└─┘└─┘└─┘┴┘└┘└─┘    ┴ ┴└─┘┘└┘ ┴ └─┘┴└─    ┴ ┴└─┘┴└─└─┘ 
+
+"""
+
+
 
 welcome_menu = """
 
@@ -6,14 +15,8 @@ welcome_menu = """
   +                                             +
   +    Welcome to the Housing Hunter Hero!      +
   +                                             +
-  +       1. Research A Property                +
-  +       2. Compare 2 Properties               +
-  +       3. Research an Area Code              +
-  +       4. Compare 2 Area Codes               +
-  +       5. Research a State                   +
-  +       6. Compare 2 States                   +
-  +                                             +    
-  +       Choose and option 1 - 6               +               
+  +       1. Search by zipcode                  +
+  +       2. Quit                               +
   +                                             +
   +++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -21,28 +24,18 @@ welcome_menu = """
 
 
 def greeting():
-    print(welcome_menu)
+    print('\n'.join(l.center(80) for l in art5.splitlines()))
+    print('\n'.join(l.center(80) for l in welcome_menu.splitlines()))
     choice = input("Please make a selection: \n")
 
     if choice == "1":
-        print("Thank you for choosing Research A Property")
-        return smash_together(name_url_scraper(), bed_bath_scraper())
+        print("Please enter zipcode: ")
+        return user_zip()
     elif choice == "2":
-        print("Thank you for choosing Compare 2 Properties")
+        print("See you next time")
         return 2
-    elif choice == "3":
-        print("Thank you for choosing Research an Area Code")
-        return 3
-    elif choice == "4":
-        print("Thank you for choosing Compare 2 Area Codes")
-        return 4
-    elif choice == "5":
-        print("Thank you for choosing Research a State")
-        return 4
-    elif choice == "6":
-        print("Thank you for choosing Compare 2 States")
-        return 4
     else:
         print("Invalid selection. Please try again.")
+        greeting()
 
-greeting()
+# greeting()

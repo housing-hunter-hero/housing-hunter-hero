@@ -84,7 +84,8 @@ def smash_together(list_1, list_2):
 
 def results_of_scrape(scraped_data):
 	for i in range(len(scraped_data)):
-		print(f"Property {i + 1}: ", scraped_data[i][2], "\n ", f"https://www.redfin.com/{scraped_data[i][1]}")
+		print(f"Property {i + 1}: {scraped_data[i][2]}","\n ", f"URL: https://www.redfin.com/{scraped_data[i][1]}")
+		# print(f"Property {i + 1}: {scraped_data[i][2]}".center(250, '0'),"\n ", f"https://www.redfin.com/{scraped_data[i][1]}".center(250, '0'))
 		print(" ")
 
 
