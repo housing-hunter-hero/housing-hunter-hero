@@ -119,11 +119,22 @@ def results_of_scrape(scraped_data):
 
 def user_zip():
 	"""
-	A function which handles the request for zip code from the user
-	:return: returns the results_of_scrape to the user based on their
-	input of a zipcode
-	"""
-	user_input = input('> ')
+    A function which handles the request for zip code from the user
+    :return: returns the results_of_scrape to the user based on their
+    input of a zipcode
+    """
+
+	while True:
+		user_input = input('> ')
+		if user_input.lower() == 'q':
+			print("See you next time!")
+			sys.exit()
+		try:
+			if not user_input.isdigit() or len(user_input) != 5:
+				raise ValueError("Invalid input. Please enter a 5-digit zip code or 'q' to quit.")
+			break
+		except ValueError as e:
+			print(e)
 	results_of_scrape((smash_together(zip_scraper(user_input), bed_bath_scraper(user_input))))
 
 
