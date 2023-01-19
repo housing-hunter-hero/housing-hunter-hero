@@ -111,7 +111,7 @@ def results_of_scrape(scraped_data):
 	"""
 	results = ""
 	for i in range(len(scraped_data)):
-		results += f"Property {i + 1}: {scraped_data[i][2]} \n URL: https://www.redfin.com{scraped_data[i][1]} \n"
+		results += f"Property {i + 1}: {scraped_data[i][2]}\nURL: https://www.redfin.com{scraped_data[i][1]}\n"
 		results += "\n"
 	print(results)
 	return results
@@ -129,3 +129,9 @@ def user_zip():
 
 if __name__ == "__main__":
 	user_zip()
+
+	# write results to file for easier testing. Give the file an eye check to confirm it is as expected.
+	# the test will load this file and will fail if function changes in a breaking way
+	# results = results_of_scrape(smash_together(zip_scraper('06118'), bed_bath_scraper('06118')))
+	# with open("tests/results_of_scrape.txt","w") as f:
+	# 	f.write(results)

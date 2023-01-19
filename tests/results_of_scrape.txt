@@ -1,24 +1,24 @@
-Property 1: $219,900 3 Beds 1.5 Baths 1,188 Sq. Ft. 120 Bayside Dr, Dundalk, MD 
-URL: https://www.redfin.com/MD/Dundalk/120-Bayside-Dr-21222/home/9333067
+Property 1: $154,900 2 Beds 2 Baths 1,140 Sq. Ft. 31 High St #9102, East Hartford, CT 
+URL: https://www.redfin.com/CT/East-Hartford/31-High-St-06118/unit-9102/home/54332988
 
-Property 2: $240,000 5 Beds 3 Baths 1,624 Sq. Ft. 3702 N Point Rd, Dundalk, MD 
-URL: https://www.redfin.com/MD/Dundalk/3702-N-Point-Rd-21222/home/9470262
+Property 2: $179,900 2 Beds 1 Bath 864 Sq. Ft. 115 Shadycrest Dr, East Hartford, CT 
+URL: https://www.redfin.com/CT/East-Hartford/115-Shadycrest-Dr-06118/home/54327750
 
-Property 3: $165,000 2 Beds 1.5 Baths 1,120 Sq. Ft. 3406 Dunran Rd, Dundalk, MD 
-URL: https://www.redfin.com/MD/Dundalk/3406-Dunran-Rd-21222/home/9342643
+Property 3: $33,900 3 Beds 1 Bath 924 Sq. Ft. 6 Pawnee Rd, East Hartford, CT 061086 Pawnee Rd, East Hartford, CT 06108
+URL: https://www.redfin.com/CT/East-Hartford/6-Pawnee-Rd-06118/home/54323203
 
-Property 4: $300,000 4 Beds 2 Baths 1,908 Sq. Ft. 206 German Hill Rd, Dundalk, MD 
-URL: https://www.redfin.com/MD/Dundalk/206-German-Hill-Rd-21222/home/9346432
+Property 4: $314,900 6 Beds 2 Baths 2,056 Sq. Ft. 67 Sisson St, East Hartford, CT 
+URL: https://www.redfin.com/CT/East-Hartford/67-Sisson-St-06118/home/54321840
 
-Property 5: $229,900 3 Beds 2 Baths 1,258 Sq. Ft. 1614 Gray Haven Ct, Dundalk, MD 
-URL: https://www.redfin.com/MD/Dundalk/1614-Gray-Haven-Ct-21222/home/9331817
+Property 5: $239,900 3 Beds 1 Bath 1,166 Sq. Ft. 33 Roxbury Rd, East Hartford, CT 
+URL: https://www.redfin.com/CT/East-Hartford/33-Roxbury-Rd-06118/home/54324844
 
-Property 6: $299,900 3 Beds 1.5 Baths 1,984 Sq. Ft. 1703 Pinewood Dr, Dundalk, MD 
-URL: https://www.redfin.com/MD/Dundalk/1703-Pinewood-Dr-21222/home/9318661
+Property 6: $39,900 2 Beds 1 Bath 732 Sq. Ft. 19 Montauk Rd, East Hartford, CT 
+URL: https://www.redfin.com/CT/East-Hartford/19-Montauk-Rd-06118/home/54323778
 
-Property 7: $179,999 2 Beds 1 Bath 1,066 Sq. Ft. 8049 Wallace Rd, Dundalk, MD 
-URL: https://www.redfin.com/MD/Dundalk/8049-Wallace-Rd-21222/home/9451492
+Property 7: $44,900 2 Beds 1 Bath 570 Sq. Ft. 41 Shawnee Rd, East Hartford, CT 
+URL: https://www.redfin.com/CT/East-Hartford/41-Shawnee-Rd-06118/home/54325183
 
-Property 8: $140,000 4 Beds 2.5 Baths 2,036 Sq. Ft. 6508 Cleveland Ave, Baltimore, MD 
-URL: https://www.redfin.com/MD/Baltimore/6508-Cleveland-Ave-21222/home/11067031
+Property 8: $157,500 3 Beds 1 Bath 988 Sq. Ft. 76 Mitchell Dr, East Hartford, CT 
+URL: https://www.redfin.com/CT/East-Hartford/76-Mitchell-Dr-06118/home/54322336
 
