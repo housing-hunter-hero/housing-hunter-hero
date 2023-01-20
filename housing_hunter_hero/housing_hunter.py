@@ -141,3 +141,4 @@ def user_zip():
 
 if __name__ == "__main__":
 	user_zip()
+	# print(bed_bath_scraper('21222'))
